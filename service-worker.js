@@ -1,12 +1,12 @@
 const CACHE_NAME = "prabir-portfolio-v1";
 const urlsToCache = [
   "/",
-  "/prabirportfoliosite.html",
+  "/index.html",
   "/style.css",
   "/script.js",
   "/manifest.json",
-  "/icons/icon-192.png",
-  "/icons/icon-512.png"
+  "/icon-192.png",
+  "/icon-512.png"
 ];
 
 // Install service worker and cache files
@@ -41,3 +41,4 @@ self.addEventListener("fetch", event => {
     })
   );
 });
+
